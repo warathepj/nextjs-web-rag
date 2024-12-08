@@ -16,10 +16,10 @@ export default function HomePage() {
 
       {/* Cards Section */}
       <section className="grid md:grid-cols-3 gap-6">
-        {[
-          { title: "Products", description: "Explore our wide range of products", href: "/products" },
-          { title: "Services", description: "Check out our professional services", href: "/services" },
-          { title: "Blog", description: "Read our latest articles and updates", href: "/blog" },
+        { [
+          { title: "สินค้าของเรา", description: "สำรวจผลิตภัณฑ์อันหลากหลายของเรา", href: "/products" },
+          { title: "บริการ", description: "สำรวจบริการของเรา", href: "/services" },
+          { title: "บล็อก", description: "อ่านบล็อกของเรา", href: "/blog" },
         ].map((card, index) => (
           <Card key={index}>
             <CardHeader>
@@ -27,11 +27,11 @@ export default function HomePage() {
               <CardDescription>{card.description}</CardDescription>
             </CardHeader>
             <CardContent>
-              <p>Click below to learn more about our {card.title.toLowerCase()}.</p>
+              <p>คลิกด้านล่างเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับ {card.title.toLowerCase()}.</p>
             </CardContent>
             <CardFooter>
               <Button asChild>
-                <Link href={card.href}>Visit {card.title}</Link>
+                <Link href={card.href}>เข้าสู่ {card.title}</Link>
               </Button>
             </CardFooter>
           </Card>
