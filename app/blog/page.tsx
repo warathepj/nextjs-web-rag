@@ -7,31 +7,31 @@ import { Badge } from "@/components/ui/badge"
 const blogPosts = [
   {
     id: 1,
-    title: "The Future of AI in Everyday Life",
-    description: "Explore how artificial intelligence is shaping our daily routines and what to expect in the coming years.",
+    title: "อนาคตของ AI ในชีวิตประจำวัน",
+    description: "สำรวจว่าปัญญาประดิษฐ์มีอิทธิพลต่อกิจวัตรประจำวันของเราอย่างไร และจะเกิดอะไรขึ้นในปีต่อๆ ไป",
     date: "2023-06-15",
-    author: "Jane Doe",
-    category: "Technology",
+    author: "เจน",
+    category: "เทคโนโลยี",
     image: "https://warathepj.github.io/js-ai-gallery/public/image/bot-website/future.jpg",
     slug: "future-of-ai-in-everyday-life"
   },
   {
     id: 2,
-    title: "10 Tips for Sustainable Living",
-    description: "Discover practical ways to reduce your carbon footprint and live a more environmentally friendly lifestyle.",
+    title: "10 เคล็ดลับเพื่อการใช้ชีวิตอย่างยั่งยืน",
+    description: "ค้นพบวิธีปฏิบัติเพื่อลดปริมาณการปล่อยคาร์บอนและใช้ชีวิตที่เป็นมิตรต่อสิ่งแวดล้อมมากขึ้น",
     date: "2023-06-10",
-    author: "John Smith",
-    category: "Lifestyle",
+    author: "จอห์น",
+    category: "ไลฟ์สไตล์",
     image: "https://warathepj.github.io/js-ai-gallery/public/image/bot-website/sustain.jpg",
     slug: "10-tips-for-sustainable-living"
   },
   {
     id: 3,
-    title: "The Rise of Remote Work: Challenges and Opportunities",
-    description: "An in-depth look at how remote work is changing the employment landscape and what it means for workers and businesses.",
+    title: "การเพิ่มขึ้นของการทำงานระยะไกล: ความท้าทายและโอกาส",
+    description: "การพิจารณาเชิงลึกว่าการทำงานระยะไกลจะเปลี่ยนแปลงภูมิทัศน์ของการจ้างงานอย่างไร และมีความหมายต่อคนงานและธุรกิจอย่างไร",
     date: "2023-06-05",
-    author: "Alice Johnson",
-    category: "Business",
+    author: "อลิส",
+    category: "ธุรกิจ",
     image: "https://warathepj.github.io/js-ai-gallery/public/image/bot-website/remote.jpg",
     slug: "rise-of-remote-work-challenges-and-opportunities"
   }
